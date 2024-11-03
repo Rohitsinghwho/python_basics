@@ -1,0 +1,85 @@
+>>> import hello_2  
+Hello ___oo
+Hello, Rohit
+Hello, Ram
+>>> hello_2.rohit("Mohit")
+Hello, Mohit
+>>> import os
+>>> os.getcwd()
+'D:\\Python'
+>>> import sys
+>>> sys.platform
+'win32'
+>>> from importlib import reload
+>>> reload(hello_2)
+Hello, Ram
+<module 'hello_2' from 'D:\\Python\\hello_2.py'>
+>>>
+
+>>> "chai"+"chai"
+'chaichai'
+>>> i+0
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'i' is not defined. Did you mean: 'id'?
+>>> 'i'+0
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can only concatenate str (not "int") to str
+>>> 'A'-0
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for -: 'str' and 'int'
+>>> typeof 'A'
+  File "<stdin>", line 1
+    typeof 'A'
+           ^^^
+SyntaxError: invalid syntax
+>>> typeof('A')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'typeof' is not defined. Did you mean: 'type'?
+>>> type 'A'
+  File "<stdin>", line 1
+    type 'A'
+         ^^^
+SyntaxError: invalid syntax
+>>> type'a'
+  File "<stdin>", line 1
+    type'a'
+        ^^^
+SyntaxError: invalid syntax
+>>> source=9
+>>> des=10
+>>> source+des
+19
+>>> source
+9
+>>> for i in [1,2,3,4,5]:
+...     print(i)
+...
+1
+2
+3
+4
+5
+>>> source
+9
+>>> for i in 123:
+...     print(i)
+...
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'int' object is not iterable
+>>> for i in range(0,8):
+...     print(i)
+...
+0
+1
+2
+3
+4
+5
+6
+7
+>>>
