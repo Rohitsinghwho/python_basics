@@ -1,3 +1,2 @@
-cha=["Lemon", "Ginger", "Masala"]
-newstr= "-".join(cha)
-print(newstr)
+summ= [x**3 for x in range(10)]
+print(summ)
